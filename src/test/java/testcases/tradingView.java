@@ -20,6 +20,8 @@ public class tradingView extends baseClass{
 		tv.sell();
 		tv.strongbuy();
 		tv.Buy();
+		tv.Neutral();
+	}
 		
 		
 		
