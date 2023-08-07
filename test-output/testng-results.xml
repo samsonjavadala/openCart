@@ -2,12 +2,12 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-07-27T14:14:22Z" name="Suite" finished-at="2023-07-27T14:14:44Z" duration-ms="22157">
+  <suite started-at="2023-08-07T08:56:56Z" name="Suite" finished-at="2023-08-07T08:57:17Z" duration-ms="20937">
     <groups>
     </groups>
-    <test started-at="2023-07-27T14:14:22Z" name="Tc_01" finished-at="2023-07-27T14:14:44Z" duration-ms="22157">
+    <test started-at="2023-08-07T08:56:56Z" name="Tc_01" finished-at="2023-08-07T08:57:17Z" duration-ms="20937">
       <class name="testcases.tradingView">
-        <test-method is-config="true" signature="Setup(java.lang.String)[pri:0, instance:testcases.tradingView@56673b2c]" started-at="2023-07-27T14:14:22Z" name="Setup" finished-at="2023-07-27T14:14:31Z" duration-ms="9296" status="PASS">
+        <test-method is-config="true" signature="Setup(java.lang.String)[pri:0, instance:testcases.tradingView@56673b2c]" started-at="2023-08-07T08:56:56Z" name="Setup" finished-at="2023-08-07T08:57:06Z" duration-ms="9452" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -18,11 +18,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Setup -->
-        <test-method signature="screens()[pri:0, instance:testcases.tradingView@56673b2c]" started-at="2023-07-27T14:14:31Z" name="screens" finished-at="2023-07-27T14:14:44Z" duration-ms="12826" status="PASS">
+        <test-method signature="screens()[pri:0, instance:testcases.tradingView@56673b2c]" started-at="2023-08-07T08:57:06Z" name="screens" finished-at="2023-08-07T08:57:17Z" duration-ms="11442" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- screens -->
-        <test-method is-config="true" signature="TearDown()[pri:0, instance:testcases.tradingView@56673b2c]" started-at="2023-07-27T14:14:44Z" name="TearDown" finished-at="2023-07-27T14:14:44Z" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="TearDown()[pri:0, instance:testcases.tradingView@56673b2c]" started-at="2023-08-07T08:57:17Z" name="TearDown" finished-at="2023-08-07T08:57:17Z" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TearDown -->

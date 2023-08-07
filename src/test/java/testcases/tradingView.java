@@ -17,6 +17,9 @@ public class tradingView extends baseClass{
 		tv.clickScreeners();
 		tv.marketCap();
 		tv.techFilter();
+		tv.sell();
+		tv.strongbuy();
+		tv.Buy();
 		
 		
 		

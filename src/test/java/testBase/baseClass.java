@@ -46,7 +46,7 @@ public class baseClass {
 
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
 		//driver.get("https://kite.zerodha.com/");
-		driver.get("https://www.tradingview.com/");
+		driver.get("https://in.tradingview.com/");
 		driver.manage().window().maximize();
 		
 

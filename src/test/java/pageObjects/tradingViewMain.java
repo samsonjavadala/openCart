@@ -27,6 +27,16 @@ public class tradingViewMain extends basePage {
 	WebElement techselect;
 	@FindBy(xpath="//input[@name='Strong Sell']")
 	WebElement strongsell;
+	@FindBy(xpath="//input[@name='Sell']")
+	WebElement sell;
+	@FindBy(xpath="//input[@name='Neutral']")
+	WebElement Neutral;
+	@FindBy(xpath="//input[@name='Buy']")
+	WebElement Buy;
+	@FindBy(xpath="//input[@name='Strong Buy']")
+	WebElement strongbuy;
+	
+	
 	public void clickProducts() throws InterruptedException {
 		
 		Actions a= new Actions(driver);
@@ -49,8 +59,19 @@ public class tradingViewMain extends basePage {
 		strongsell.click();
 		
 	}
+	public void sell() {
+		sell.click();
+	}
+	public void Neutral() {
+		Neutral.click();
+	}
+	public void Buy() {
+		Buy.click();
+	}
 	
-	
-	
+	//strongbuy
+	public void strongbuy() {
+		strongbuy.click();
+	}
 	
 }
