@@ -31,7 +31,7 @@ public class tradingViewMain extends basePage {
 	WebElement sell;
 	@FindBy(xpath="//input[@name='Neutral']")
 	WebElement Neutral;
-	@FindBy(xpath="//input[@name='Buy']")
+	@FindBy(xpath="//input[@name='Buy1']")
 	WebElement Buy;
 	@FindBy(xpath="//input[@name='Strong Buy']")
 	WebElement strongbuy;

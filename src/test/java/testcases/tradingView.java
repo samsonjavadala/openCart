@@ -30,4 +30,4 @@ public class tradingView extends baseClass{
 		
 	
 
-}
+

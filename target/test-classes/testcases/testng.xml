@@ -11,6 +11,8 @@
   <test thread-count="5" name="Test">
     <classes>
       <class name="testcases.Tc_01_Registration"/>
+      <class name="testcases.whatsapp"/>
+      
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

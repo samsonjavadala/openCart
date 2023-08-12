@@ -1,15 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
-  <test thread-count="5" name="Default test(failed)">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="utilities.ExtentReportManager"/>
+  </listeners>
+  <test thread-count="5" name="Tc_01(failed)">
+    <parameter name="browser" value="chrome"/>
     <classes>
-      <class name="testcases.tradingView">
+      <class name="testcases.whatsapp">
         <methods>
           <include name="TearDown"/>
-          <include name="screens"/>
+          <include name="Whatsapplogin"/>
           <include name="Setup"/>
         </methods>
-      </class> <!-- testcases.tradingView -->
+      </class> <!-- testcases.whatsapp -->
     </classes>
-  </test> <!-- Default test(failed) -->
-</suite> <!-- Failed suite [Default suite] -->
+  </test> <!-- Tc_01(failed) -->
+</suite> <!-- Failed suite [Suite] -->

@@ -3,13 +3,14 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="testcases.tradingView">
+      <class name="testcases.whatsapp">
         <methods>
           <include name="TearDown"/>
-          <include name="screens"/>
+          <include name="Home"/>
+          <include name="Whatsapplogin"/>
           <include name="Setup"/>
         </methods>
-      </class> <!-- testcases.tradingView -->
+      </class> <!-- testcases.whatsapp -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
